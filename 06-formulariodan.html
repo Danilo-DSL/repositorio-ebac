@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Curso Front-end</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./style.css">
+	</head>
+	<body>
+
+		<header>
+				<h2>Curso Front-end</h2>
+		</header>
+
+		<section>
+
+			<nav>
+				<ul>
+					<li><a href="05-layouts.html">Home</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="#contato">Contato</a></li>
+				</ul>
+			</nav>
+
+			<article>
+
+				<h1>Contato</h1>
+
+				<p>Preencha campos abaixo</p>
+				
+				<form method="post">
+					
+					<div>
+						<label for="name">Nome</label>
+						<input type="text" name="nome" id="nome"placeholder="Digite seu nome">
+					</div>
+					
+					
+					<div>
+						<label for="email">E-mail</label>
+						<input type="email" name="email" id="email"  placeholder="e-mail"></input>
+					</div>
+
+					<div>
+						<label for="mensagem">Mensagem</label>
+						<textarea name="mensagem" id="mensagem" rows="10" placeholder="Mensagem"></textarea>
+						<input type="submit">	
+					</div>
+
+					<div>
+						<p>
+							<label >Quais linguagens você prefere?</label>
+							<input type="radio" name="linguagens" value="html">HTML
+							<input type="radio" name="linguagens" value="css">CSS
+							<input type="radio" name="linguagens" value="javascrip">JAVASCRIPT
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>Quais linguagens você conhece?</label>
+							<input type="checkbox" name="linguagens" value="html">HTML
+							<input type="checkbox" name="linguagens" value="css">CSS
+							<input type="checkbox" name="linguagens" value="javascrip">JAVASCRIPT
+						</p>
+					</div>
+
+					<div>
+						<label>Qual a sua cor favorita?</label>
+						<select>
+							<option value="prteo">Preto<option>
+							<option value="vermelho" selected>Vermelho</option>
+							<option value="verde">Verde</option>
+						</select>
+					</div>
+				</form>
+			</article>
+
+
+		</section>
+
+		<footer>
+			<p>Full Stack Phyton - 2022</p>
+		</footer>
+		
+	</body>
+</html>

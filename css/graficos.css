@@ -1,0 +1,50 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+div {  
+    margin: 40px auto;
+}
+
+header{
+    background: local;
+}
+
+
+/* Círculo*/
+#grafico-01 {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    float: right;
+}
+
+#grafico-01 img {
+    width: 100%;
+    height: auto;
+}
+
+/* Triângulo */
+#grafico-02 {
+    background: transparent;
+    border-style: solid;
+    border-width: 60px 0 60px 120px;
+    border-color: transparent transparent transparent blue;
+    width: 60px;
+}
+
+#imagem-vetorial {
+    width: 100px;
+}
+
+#canvas {
+    height: 300px;
+    width: 300px;
+}
